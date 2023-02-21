@@ -7,44 +7,9 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  approach:
-  - name: behavioral approach
-    schemaKey: ApproachType
-  - name: electrophysiological approach
-    schemaKey: ApproachType
-  dataStandard:
-  - identifier: RRID:SCR_015242
-    name: Neurodata Without Borders (NWB)
-    schemaKey: StandardsType
-  measurementTechnique:
-  - name: spike sorting technique
-    schemaKey: MeasurementTechniqueType
-  - name: signal filtering technique
-    schemaKey: MeasurementTechniqueType
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
-  - name: behavioral technique
-    schemaKey: MeasurementTechniqueType
-  - name: analytical technique
-    schemaKey: MeasurementTechniqueType
-  - name: multi electrode extracellular electrophysiology recording technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 5559523288
-  numberOfFiles: 1
-  numberOfSubjects: 1
+  numberOfBytes: 0
+  numberOfFiles: 0
   schemaKey: AssetsSummary
-  species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
-    name: Rattus norvegicus - Norway rat
-    schemaKey: SpeciesType
-  variableMeasured:
-  - Position
-  - ElectricalSeries
-  - ElectrodeGroup
-  - SpatialSeries
-  - Units
-  - ProcessingModule
-  - LFP
 citation: Shin, Justin (2023) Novel-familiar-novel WTrack (Version draft) [Data set].
   DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
@@ -56,7 +21,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2023-02-17T18:04:07.516903+00:00'
-datePublished: '2023-02-17T18:11:15.937269+00:00'
+datePublished: '2023-02-21T16:53:03.690892+00:00'
 description: Hippocampal-prefrontal recordings (dorsal CA1 region of the hippocampus
   and primarily the prelimbic region of prefrontal cortex) during exposure to novel
   and familiar WTrack environments. Data includes spikes from single units, local
@@ -76,13 +41,13 @@ manifestLocation:
 name: Novel-familiar-novel WTrack
 protocol: []
 publishedBy:
-  endDate: '2023-02-17T18:11:15.937269+00:00'
-  id: urn:uuid:cc2fa2fa-4ca6-473c-abe6-010c26ee3ec4
+  endDate: '2023-02-21T16:53:03.690892+00:00'
+  id: urn:uuid:165e4d1a-5dfe-4b8c-a721-bd0ea1dc43d0
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-02-17T18:11:15.937269+00:00'
+  startDate: '2023-02-21T16:53:03.690892+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:b61e9939-76a3-4957-99d8-8bf15f8393d4
+  - id: urn:uuid:450ba89d-0a7b-4e07-b3e9-85040f33300d
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
