@@ -46,7 +46,7 @@ assetsSummary:
   - ProcessingModule
   - SpatialSeries
 citation: Shin, Justin; Jadhav, Shantanu P (2023) Novel-familiar-novel WTrack (CA1-PFC)
-  (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000447/draft
+  (Version 0.230316.2133) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000447/0.230316.2133
 contributor:
 - affiliation: []
   email: jdshin@brandeis.edu
@@ -81,6 +81,7 @@ description: Hippocampal-prefrontal recordings in rats (dorsal CA1 region of the
   field potential recordings, position (x, y, velocity), and trajectory information.
   Each file contains data from 3 behavioral epochs - Novel Wtrack (first exposure)
   - Familiar WTrack - Novel WTrack (second exposure)
+doi: 10.48324/dandi.000447/0.230316.2133
 ethicsApproval:
 - contactPoint:
     email: iacuc-group@brandeis.edu
@@ -88,14 +89,14 @@ ethicsApproval:
     url: https://www.brandeis.edu/ora/compliance/acup.html
   identifier: '21001'
   schemaKey: EthicsApproval
-id: DANDI:000447/draft
+id: DANDI:000447/0.230316.2133
 identifier: DANDI:000447
 keywords:
 - Hippocampus, Prefrontal cortex, Learning, Memory, Decision making
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000447/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000447/0.230316.2133/assets.yaml
 name: Novel-familiar-novel WTrack (CA1-PFC)
 protocol: []
 publishedBy:
@@ -122,6 +123,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000447/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000447/0.230316.2133
+version: 0.230316.2133
 wasGeneratedBy: []
